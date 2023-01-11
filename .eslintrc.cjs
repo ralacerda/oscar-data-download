@@ -2,6 +2,7 @@ module.exports = {
   env: {
     es2021: true,
     node: true,
+    jest: true,
   },
   extends: "eslint:recommended",
   overrides: [],
@@ -15,4 +16,5 @@ module.exports = {
     quotes: ["error", "double"],
     semi: ["error", "always"],
   },
+  plugins: ["jest"],
 };
